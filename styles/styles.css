@@ -1,24 +1,30 @@
 h1 {
 	font-size: 25px;
 	font-family: 'Fira Sans', sans-serif;
+	color: #F75E5E;
+}
+
+ul#menu-icons li {
+	list-style: none;
+	vertical-align: baseline;
+}
+
+ul#menu-icons li{
+	float: left;
+	margin-right: 20px;
 }
 
 ul#menu-icons{
 	background-color: black;
 	position: relative;
-	width: 450px;
+	width: 410px;
 	height: 50px;
+	padding-top: 15px;
+	padding-bottom: 10px;
 }
 
-ul#menu-icons li {
-	list-style: none;
-}
 
-ul#home li{
-	float: left;
-	margin-right: 20px;
-}
-
+/*button hover*/
 #home a {
 	background: url("../images/twd-mobile-icons.png") left top;
 }
@@ -27,13 +33,48 @@ ul#home li{
 	background:url("../images/twd-mobile-icons.png") left bottom;
 }
 
+#students a {
+	background: url("../images/twd-mobile-icons.png") -58px top;
+}
+
+#students a:hover{
+	background:url("../images/twd-mobile-icons.png") -58px bottom;
+}
+
+#schedule a {
+	background: url("../images/twd-mobile-icons.png") -128px top;
+}
+
+#schedule a:hover{
+	background:url("../images/twd-mobile-icons.png") -128px bottom;
+}
+
+#staff a {
+	background: url("../images/twd-mobile-icons.png") -200px top;
+}
+
+#staff a:hover{
+	background:url("../images/twd-mobile-icons.png") -200px bottom;
+}
+
+#showcase a {
+	background: url("../images/twd-mobile-icons.png") -265px top;
+}
+
+#showcase a:hover{
+	background:url("../images/twd-mobile-icons.png") -265px bottom;
+}
+
+
 
 
 ul#menu-icons li a {
     display: block;
-    width: 40px;
-    height: 42px; /* png file - one icon's height*/
+    width: 57px;  /* png file each icon's width*/
+    height: 42px; /* png file each icon's height*/
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
 }
+
+
