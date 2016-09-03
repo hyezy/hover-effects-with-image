@@ -1,0 +1,30 @@
+h1 {
+	font-size: 25px;
+	font-family: 'Fira Sans', sans-serif;
+}
+ul#menu-icons{
+	position: relative;
+}
+
+ul#menu-icons li {
+	list-style: none;
+}
+
+ul#home li{
+	float: left;
+	margin-right: 20px;
+}
+
+#home a {
+	background: url("../images/twd-mobile-icons.png")left bottom;
+
+}
+
+ul#menu-icons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
